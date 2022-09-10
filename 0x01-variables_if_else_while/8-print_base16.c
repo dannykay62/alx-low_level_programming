@@ -13,7 +13,7 @@ int main(void)
 	int x;
 	char m;
 
-	for (x = '0'; x < '10'; x++)
+	for (x = '0'; x <= '9'; x++)
 		putchar(x);
 	for (m = 'a'; m <= 'f'; m++)
 		putchar(m);
