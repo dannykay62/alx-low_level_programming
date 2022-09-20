@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * _strcpy - copies the string pointed to by src
  * including the termiating null bite (\0)
@@ -11,9 +13,9 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	char *temp = *dest;
+	char *aux = dest;
 
 	while (*src)
 		*dest++ = *src++;
-	return (temp);
+	return (aux);
 }
