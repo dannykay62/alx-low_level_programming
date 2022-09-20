@@ -6,7 +6,7 @@
  * If the number of characters is odd, the function should print
  * the last n characters of the string,
  * where n = (length_of_the_string - 1) / 2
- * @string: input string
+ * @str: input string
  * Return: nothing
  */
 
@@ -21,7 +21,7 @@ void puts_half(char *str)
 		n = len / 2;
 
 	else
-		n = (len + 1) / 2;
+		n = len % 2;
 
 	for (i = n; i < len; i++)
 		putchar(str[i]);
