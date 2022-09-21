@@ -1,3 +1,6 @@
+#include "holberton.h"
+#include <stdio.h>
+
 int check_seperator(char c);
 
 /**
