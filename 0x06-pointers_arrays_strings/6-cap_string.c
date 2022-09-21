@@ -33,7 +33,7 @@ char *cap_string(char *s)
 int check_separator(char c)
 {
 	int i = 0;
-	char separators[13] = {' ', '\t', '\n', ',', ';',
+	char separator[13] = {' ', '\t', '\n', ',', ';',
 		'.', '!', '?', '"', '(', ')', '{', '}'};
 
 	for (; i < 13; i++)
