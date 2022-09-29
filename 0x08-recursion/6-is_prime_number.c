@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "daniel.h"
 int is_divisible(int num, int div);
 
 /**
