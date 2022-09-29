@@ -1,5 +1,5 @@
 #include "daniel.h"
-it _sqrt(int prev, int root);
+int _sqrt(int prev, int root);
 
 /**
  * _sqrt_recursion - function that returns the
