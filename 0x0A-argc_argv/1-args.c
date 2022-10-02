@@ -10,16 +10,7 @@
 
 int main(int argc, char *argv)
 {
-	int i;
-	int counter = 0;
-
-	if (argc > 0)
-	{
-		for (i = 0; i <= argc; i++)
-		{
-			counter++;
-		}
-	}
-	printf("%d\n", counter);
+	if (argv[0])
+		printf("%d\n", counter);
 	return (0);
 }
