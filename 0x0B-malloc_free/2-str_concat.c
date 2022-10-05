@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 #include <stdlib.h>
 
@@ -14,7 +14,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *new_str, *starts1, *starts2;
-	int i = 0, lens1 = 0;
+	int i = 0, lens1 = 0, lens2;
 
 	starts1 = s1;
 	starts2 = s2;
@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	s2 = starts2;
 	new_str = malloc(sizeof(char) * (lens1 + lens2 + 1));
-	startsa1 = new_str;
+	starts1 = new_str;
 	if (new_str == NULL)
 		return (NULL);
 	for (; i < (lens1 + lens2); i++)
