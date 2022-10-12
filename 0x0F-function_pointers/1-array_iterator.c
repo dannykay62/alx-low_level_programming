@@ -1,4 +1,4 @@
-i#include <stdlib.h>
+#include <stdlib.h>
 
 /**
  * array_iterator - function executes another funtion that is
@@ -11,7 +11,7 @@ i#include <stdlib.h>
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int = 0;
+	unsigned int i = 0;
 
 	if (action == NULL || array == NULL)
 		return;
