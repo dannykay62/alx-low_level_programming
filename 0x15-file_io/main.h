@@ -5,6 +5,10 @@
  * FILE_ main.h
  * AUTH: Daniel Adejoro
  * Desc: Header file for project 0x15. C - File I/O
+ *
+ * filename: pointer to name of file
+ * letters: number of letters
+ * read_textfile - reads a textfile
  */
 
 #include <sys/types.h>
