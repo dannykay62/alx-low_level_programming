@@ -1,6 +1,5 @@
-#ifndef HOLBERTON_H_INCLUDED
-
-#define HOLBERTON_H_INCLUDED
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 
 
@@ -34,4 +33,4 @@ void num(int r, int n);
 
 
 
-#endif
+#endif /* _MAIN_H_ */
