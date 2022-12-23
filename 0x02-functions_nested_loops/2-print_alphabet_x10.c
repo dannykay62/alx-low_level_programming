@@ -1,7 +1,6 @@
 #include "main.h"
 #include <unistd.h>
 
-int _putchar(char c);
 /**
  * print_alphabet_x10 - Prints 10 times the alphabet in lowercase
  */
