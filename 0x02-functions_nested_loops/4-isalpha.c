@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _islower - function to check for lowercase character
+ * _isalpha - function to check for alphabet letter
  *
  * @c:  is the int that will use for the argument of the function
  *
